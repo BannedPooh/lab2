@@ -21,6 +21,7 @@ int main()
             }
         }
         std::cout<<"The approximation for Leibniz's Formula is "<<4*s<<" using "<<term<<" terms."<<std::endl;
+        std::cout<<"Enter the number of terms to approximate (or zero to quit):"<<std::endl;
         std::cin>>term;
     }
 }
